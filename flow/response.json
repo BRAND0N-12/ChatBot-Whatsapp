@@ -1,0 +1,392 @@
+{
+    
+    "DEFAULT":{
+        "replyMessage":[
+            "*Disculpa, parece que no he entendido tu duda* \n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_0":{
+        "replyMessage":[
+            "El flujo ha finalizado \n",
+            "pero puedes ver todo el codigo de este \n",
+            "repositorio en https://github.com/leifermendez/bot-whatsapp.git"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_1":{
+        "replyMessage":[
+            "Hola! Bienvenido🤖 Somos el salon para eventos. \n",
+            "🌞 VILLA DEL SOL 🌞 \n",
+            "\n Si necesitas ver más info sobre los salones y eventos escribe el numero correspondiente:\n",
+            "1⃣ = _Salones_ \n2⃣ = _Eventos_ \n3⃣ = _Imagenes_ \n4⃣ = _Ubicacion_"
+        ],
+        "media":null,
+        "trigger":null,
+        "actions":{
+            "buttons":[
+                {"body":"salon"},
+                {"body":"eventos"}
+            ]
+        }
+    },
+    "STEP_2":{
+        "replyMessage":[
+            "Perfecto, tenemos a disposicion dos tipos de salones. \n\n",
+            "🟢 _Salon de eventos generales_  🥳 = 0⃣1⃣\n",
+            "🟢 _Salon de eventos infantiles_ 😸 = 0⃣2⃣\n",
+            "Escribe el numero del tema que te interese. \n\n",
+
+            "0⃣0⃣ = *Menú Principal*"
+        ],
+        "media":null,
+        "title":"0⃣0⃣ = *Menú Principal*",
+        "message":"0⃣0⃣ = *Menú Principal*",
+        "footer":"0⃣0⃣ = *Menú Principal*",
+        "trigger":null
+
+    },
+    "STEP_3":{
+        "replyMessage":[
+            "Si te interesa el Salon para eventos infantiles 😸\n",
+            "(Salon 2)\n",
+            "Tiene una capacidad de de 50 a maximo 200 personas\n",
+            "Contamos con paquetes accesibles, escribe el numero que sea de tu interes:\n\n",
+            "1⃣1⃣ = _Paquete Basico_ 👌\n",
+            "1⃣2⃣ = _Paquete Oro_ 🥇\n",
+            "1⃣3⃣ = _Paquete Platino_ 🥈\n",
+            "1⃣4⃣ = _Paquete Vip_ 💎\n",
+            "       😎😎😎\n\n",
+
+            "1⃣   =    *Regresar*\n",
+            "0⃣0⃣ = *Menú Principal*\n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_3_1":{
+        "replyMessage":[
+            "Si el 👌Paquete Basico👌 es de tu interes cuenta con: \n",
+            "- _Manteleria_\n",
+            "- _Mobiliario (Sillas, mesas)_\n",
+            "- _D.J.(Sonido, Luces ritmicas)_\n",
+            "- _Limpieza de sanitarios_\n",
+            "- _Servicio de gas en cocina_ \n",
+            "- _Area de juegos(Personal cuidando)_\n\n",
+            "💸!Nos podemos ajustar a tu presupuesto¡💸\n",
+            "- _Entre 50 a 100 personas = $6,300_\n",
+            "- _Entre 100 a 150 personas = $7,500_\n",
+            "- _Entre 150 a 200 personas = $8,700_\n\n",
+    
+            "0⃣2⃣ =    *Regresar*\n",
+            "0⃣0⃣ = *Menú Principal*\n",
+            "5⃣   = *Agendar cita*\n",
+            "0⃣5⃣ =     *Salir*\n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_3_2":{
+        "replyMessage":[
+            "🥇Paquete Oro🥇 si te agrada una opcion mas completa \n",
+            "- _Manteleria_\n",
+            "- _Mobiliario (Sillas, mesas)_\n",
+            "- _D.J.(Sonido, Luces ritmicas)_\n",
+            "- _Limpieza de sanitarios_\n",
+            "- _Servicio de gas en cocina_\n",
+            "- _Area de juegos(Personal cuidando)_\n",
+            "- _Meseros_ \n\n",
+            "💸!Nos podemos ajustar a tu presupuesto¡💸\n",
+            "- _Entre 50 a 100 personas = $7,300_\n",
+            "- _Entre 100 a 150 personas = $8,500_\n",
+            "- _Entre 150 a 200 personas = $9,700_\n\n",
+            
+            "0⃣2⃣ =    *Regresar*\n",
+            "0⃣0⃣ = *Menú Principal*\n",
+            "5⃣   = *Agendar cita*\n",
+            "0⃣5⃣ =     *Salir*\n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_3_3":{
+        "replyMessage":[
+            "Muy bien 🥈Paquete Platino🥈 es el mas completo a tu disposicion \n",
+            "- _Mobiliario (Sillas, mesas)_\n",
+            "- _D.J.(Sonido, Luces ritmicas)_\n",
+            "- _Limpieza de sanitarios_\n",
+            "- _Servicio de gas en cocina_\n",
+            "- _Area de juegos(Personal cuidando)_\n",
+            "- _Meseros_ \n",
+            "- _Banquete a cuatro tiempos_ \n",
+            "- _Batucada_ \n\n",
+            "💸!Nos podemos ajustar a tu presupuesto¡💸\n",
+            "- _Entre 50 a 100 personas = $33,000_\n",
+            "- _Entre 100 a 150 personas = $49,500_\n",
+            "- _Entre 150 a 200 personas = $66,000_\n\n",
+            
+            "0⃣2⃣ =    *Regresar*\n",
+            "0⃣0⃣ = *Menú Principal*\n",
+            "5⃣   = *Agendar cita*\n",
+            "0⃣5⃣ =     *Salir*\n"
+            
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_3_4":{
+        "replyMessage":[
+            "💎Paquete Vip💎 el que todos tus invitados se merecen \n",
+            "- _Mobiliario (Sillas, mesas)_\n",
+            "- _D.J.(Sonido, Luces ritmicas)_\n",
+            "- _Limpieza de sanitarios_\n",
+            "- _Servicio de gas en cocina_ \n",
+            "- _Area de juegos(Personal cuidando)_ \n",
+            "- _Meseros_\n",
+            "- _Banquete a cuatro tiempos_ \n",
+            "- _Batucada_ \n",
+            "- _Decorador (Costo extra +7000)_ \n",
+            "- _Pista iluminada (Costo extra +5000)_ \n\n",
+            "💸!Nos podemos ajustar a tu presupuesto¡💸\n",
+            "- _Entre 50 a 100 personas = $33,000_\n",
+            "- _Entre 100 a 150 personas = $49,500_\n",
+            "- _Entre 150 a 200 personas = $66,000_\n\n",
+
+            "0⃣2⃣ =    *Regresar*\n",
+            "0⃣0⃣ = *Menú Principal*\n",
+            "5⃣   = *Agendar cita*\n",
+            "0⃣5⃣ =     *Salir*\n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_4":{
+        "replyMessage":[
+            "Si te interesa el Salon para eventos Generales 🥳\n",
+            "(Salon 1)\n",
+            "Tiene una capacidad de 100 a maximo 400 personas\n",
+            "Contamos con paquetes accesibles escribe el numero que sea de tu interes:\n\n",
+            "2⃣1⃣ = _Paquete Basico_ 👌\n",
+            "2⃣2⃣ = _Paquete Oro_ 🥇\n",
+            "2⃣3⃣ = _Paquete Platino_ 🥈\n",
+            "2⃣4⃣ = _Paquete Vip_ 💎\n",
+            "       😎😎😎\n\n",
+
+            "1⃣   =    *Regresar*\n",
+            "0⃣0⃣ = *Menú Principal*\n"
+            
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_4_1":{
+        "replyMessage":[
+            "Si te interesa el 👌Paquete Basico👌 cuenta con: \n",
+            "- _Manteleria_ \n",
+            "- _Mobiliario (Sillas tiffany, mesas imperiales)_\n",
+            "- _D.J.(Sonido, Luces ritmicas)_\n",
+            "- _Limpieza de sanitarios_\n",
+            "- _Servicio de gas en cocina_ \n\n",
+            "💸!Nos podemos ajustar a tu presupuesto¡💸\n",
+            "- _Entre 100 a 150 personas = $7,500_\n",
+            "- _Entre 150 a 200 personas = $8,700_\n",
+            "- _Entre 200 a 250 personas = $9,900_\n",
+            "- _Entre 250 a 300 personas = $11,100_\n",
+            "- _Entre 300 a 350 personas = $12,300_\n",
+            "- _Entre 350 a 400 personas = $13,500_\n\n",
+            
+            "0⃣1⃣ =    *Regresar*\n",
+            "0⃣0⃣ = *Menú Principal*\n",
+            "5⃣   = *Agendar cita*\n",
+            "0⃣5⃣ =     *Salir*\n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_4_2":{
+        "replyMessage":[
+            "🥇Paquete Oro🥇 si te agrada una opcion mas completa \n",
+            "- _Manteleria_\n",
+            "- _Mobiliario (Sillas Tiffany, mesas imperiales)_\n",
+            "- _D.J.(Sonido, Luces ritmicas)_\n",
+            "- _Limpieza de sanitarios_\n",
+            "- _Servicio de gas en cocina_\n",
+            "- _Meseros_ \n\n",
+            "💸!Nos podemos ajustar a tu presupuesto¡💸\n",
+            "- _Entre 100 a 150 personas = $9,300_\n",
+            "- _Entre 150 a 200 personas = $10,500_\n",
+            "- _Entre 200 a 250 personas = 11,700_\n",
+            "- _Entre 250 a 300 personas = $12,900_\n",
+            "- _Entre 300 a 350 personas = $14,100_\n",
+            "- _Entre 350 a 400 personas = $15,300_\n\n",
+            
+            "0⃣1⃣ =    *Regresar*\n",
+            "0⃣0⃣ = *Menú Principal*\n",
+            "5⃣   = *Agendar cita*\n",
+            "0⃣5⃣ =     *Salir*\n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_4_3":{
+        "replyMessage":[
+            "Muy bien 🥈Paquete Platino🥈 es el mas completo a tu disposicion \n",
+            "- _Mobiliario (Sillas Tiffany, mesas imperiales)_\n",
+            "- _D.J.(Sonido, Luces ritmicas)_\n",
+            "- _Limpieza de sanitarios_\n",
+            "- _Servicio de gas en cocina_\n",
+            "- _Meseros_\n",
+            "- _Banquete a cuatro tiempos_\n",
+            "- _Batucada_\n\n",
+            "💸!Nos podemos ajustar a tu presupuesto¡💸\n",
+            "- _Entre 100 a 150 personas = $45,000_\n",
+            "- _Entre 150 a 200 personas = $60,000_\n",
+            "- _Entre 200 a 250 personas = $72,500_\n",
+            "- _Entre 250 a 300 personas = $87,000_\n",
+            "- _Entre 300 a 350 personas = $98,000_\n",
+            "- _Entre 350 a 400 personas = $112,000_\n\n",
+            
+            "0⃣1⃣ =    *Regresar*\n",
+            "0⃣0⃣ = *Menú Principal*\n",
+            "5⃣   = *Agendar cita*\n",
+            "0⃣5⃣ =     *Salir*\n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_4_4":{
+        "replyMessage":[
+            "💎Paquete Vip💎 el que todos tus invitados se merecen \n",
+            "- _Mobiliario (Sillas Tiffany, mesas imperiales)*\n",
+            "- _D.J.(Sonido, Luces ritmicas)_\n",
+            "- _Limpieza de sanitarios_\n",
+            "- _Servicio de gas en cocina_\n",
+            "- _Meseros_\n",
+            "- _Banquete a cuatro tiempos_\n",
+            "- _Batucada_\n",
+            "- _Decorador (Costo extra +9000)_\n",
+            "- _Pista iluminada (Costo extra +7000)_\n",
+            "_(No aumenta el costo por cantidad de horas)_\n\n",
+            "💸!Nos podemos ajustar a tu presupuesto¡💸\n",
+            "- _Entre 100 a 150 personas = $45,000_\n",
+            "- _Entre 150 a 200 personas = $60,000_\n",
+            "- _Entre 200 a 250 personas = $72,500_\n",
+            "- _Entre 250 a 300 personas = $87,000_\n",
+            "- _Entre 300 a 350 personas = $98,000_\n",
+            "- _Entre 350 a 400 personas = $112,000_\n",
+            "_[Hora extra con D.J = $1,000], [Hora extra con D.J = $800]_ \n\n",
+            
+            "0⃣1⃣ =    *Regresar*\n",
+            "0⃣0⃣ = *Menú Principal*\n",
+            "5⃣   = *Agendar cita*\n",
+            "0⃣5⃣ =     *Salir*\n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_5":{
+        "replyMessage":[
+            "🕺 Contamos con una variedad amplia de eventos: 💃\n",
+            "🟡  _XV Años_\n",
+            "🟡  _Bautizos_\n",
+            "🟡  _Bodas_\n",
+            "🟡  _Comuniones_\n",
+            "🟡  _Graduaciónes_\n",
+            "🟡  _Cumpleaños_\n",
+            "🟡  _Jubilaciones_\n",
+            "🟡  _Conferencias_\n",
+            "🟡  _Todo tipo de evento social_\n\n",
+            
+            "0⃣0⃣ = *Menú Principal*\n",
+            "0⃣5⃣ =     *Salir*\n"
+
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_6":{
+        "replyMessage":[
+            "👁‍🗨 Aqui te muestro imagenes de los salones dependiendo de tu evento\n",
+            "       😉👍\n",
+            "3⃣1⃣ = _Para ver imagenes del salon para eventos generales_ 🏨\n",
+            "3⃣2⃣ = _Para ver imagenes del salon para eventos infantiles_ 🌌\n\n",
+           
+            "0⃣0⃣ = *Menú Principal*\n",
+            "0⃣5⃣ =     *Salir*\n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_6_1":{
+        "replyMessage":[
+            "Te muestro imagenes del salon elegido 🎉🏬 \n\n",
+
+            "3⃣    =    *Regresar*\n",
+            "0⃣0⃣ = *Menú Principal*\n",
+            "0⃣5⃣ =     *Salir*\n",
+            "5⃣   = *Agendar cita*\n"
+               ],
+        "media":"salon1.jpeg",
+        "trigger":null
+    },
+
+    "STEP_6_2":{
+        "replyMessage":[
+            "Te muestro imagenes del salon elegido 🎊🎆 \n\n",
+
+            "3⃣    =    *Regresar*\n",
+            "0⃣0⃣ = *Menú Principal*\n",
+            "0⃣5⃣ =     *Salir*\n",
+            "5⃣   = *Agendar cita*\n"
+               ],
+        "media":"salon2.jpeg",
+        "trigger":null
+    },
+
+    "STEP_7":{
+        "replyMessage":[
+            "Esperemos haber resuelto todas tus dudas❗ 💯 \n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_8":{
+        "replyMessage":[
+            "_Accede a nuestra pagina web o desde nuestra aplicacion para agendar una cita_ 👾 \n",
+            "\n\n",
+
+            "0⃣0⃣ = *Menú Principal*\n",
+            "0⃣5⃣ =     *Salir*\n"
+        ],
+        "media":"computer-reaction.gif",
+        "trigger":null
+    },
+    
+    "STEP_9":{
+        "replyMessage":[
+            "Nos puede encontrar en la siguiente direccion: 🌏\n",
+            " _Av. Ricardo Flores Magón S/N Carr. Tlalmanalco-San Rafael San Juan Atzacualoya C.P 56720_ \n\n",
+            
+            "0⃣0⃣ = *Menú Principal*\n",
+            "0⃣5⃣ =     *Salir*\n"
+        ],
+        "media":"ubicacion.jpeg",
+        "trigger":null
+    },
+    "STEP_10":{
+        "replyMessage":[
+            "Esto es una nota de voz \n"
+        ],
+        "media":"nota-de-voz.mp3",
+        "trigger":null
+    },
+    "STEP_11":{
+        "replyMessage":[
+            " \n"
+        ],
+        "media":"",
+        "trigger":null
+    }
+}

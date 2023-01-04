@@ -1,0 +1,166 @@
+[
+    {
+        "keywords":  [
+            "hola",
+            "hola!",
+            "ola",
+            "ole",
+            "inicio",
+            "welcome",
+            "buenos días",
+            "buenas tardes",
+            "buenas noches",
+            "me dieron este número",
+            "necesito un evento",
+            "quisiera saber sobre los salones",
+            "necesito saber",
+            "00"
+        ],
+        "key": "STEP_1"
+    },
+    {
+        "keywords":  [
+            "1"
+            ],
+        "key": "STEP_2"
+    },
+    {
+        "keywords":  [
+            "infantiles",
+            "02"
+            ],
+        "key": "STEP_3"
+    },
+    {
+        "keywords":  [
+            "👌",
+            "11"
+        ],
+        "key": "STEP_3_1"
+    },
+    {
+        "keywords":  [
+            "🥇",
+            "12"
+        ],
+        "key": "STEP_3_2"
+    },
+    {
+        "keywords":  [
+
+            "🥈",
+            "13"
+        ],
+        "key": "STEP_3_3"
+    },
+    {
+        "keywords":  [
+            "💎",
+            "14"
+        ],
+        "key": "STEP_3_4"
+    },
+
+    {
+        "keywords":  [
+            "normal",
+            "01"
+
+        ],
+        "key": "STEP_4"
+    },
+    {
+        "keywords":  [
+            "👌",
+            "21"
+        ],
+        "key": "STEP_4_1"
+    },
+    {
+        "keywords":  [
+            "🥇",
+            "22"
+        ],
+        "key": "STEP_4_2"
+    },
+    {
+        "keywords":  [
+            "🥈",
+            "23"
+        ],
+        "key": "STEP_4_3"
+    },
+    {
+        "keywords":  [
+            "💎",
+            "24"
+        ],
+        "key": "STEP_4_4"
+    },
+    {
+        "keywords":  [
+            "2"
+        ],
+        "key": "STEP_5"
+    },
+    {
+        "keywords":  [
+            "3"
+        ],
+        "key": "STEP_6"
+    },
+    {
+        "keywords":  [
+            "31"
+        ],
+        "key": "STEP_6_1"
+    },
+    {
+        "keywords":  [
+            "32"
+        ],
+        "key": "STEP_6_2"
+    },
+    {
+        "keywords":  [
+            "muchas gracias",
+            "ok",
+            "gracias bye",
+            "vale gracias",
+            "adios",
+            "hasta luego",
+            "adiós",
+            "gracias",
+            "05"
+        ],
+        "key": "STEP_7"
+    },
+    {
+        "keywords":  [
+            "pagina",
+            "web",
+            "consultar",
+            "5"
+        ],
+        "key": "STEP_8"
+    },
+    {
+        "keywords":  [
+            "4"
+        ],
+        "key": "STEP_9"
+    },
+    {
+        "keywords":  [
+            "audio"
+        ],
+        "key": "STEP_10"
+    },
+    {
+        "keywords":  [
+            "A",
+            "a"
+        ],
+        "key": "STEP_11"
+    }
+]
